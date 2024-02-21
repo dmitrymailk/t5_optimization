@@ -1,0 +1,10 @@
+.history/
+.idea/
+venv/
+__pycache__/
+*.egg-info/
+site/
+.cache/
+
+# Misc
+.DS_Store

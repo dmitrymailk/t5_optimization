@@ -1,0 +1,10 @@
+torch==2.0.0
+triton==2.0.0
+pytest
+tabulate
+termcolor
+transformers
+isort
+black[jupyter]
+flake8
+more_itertools
