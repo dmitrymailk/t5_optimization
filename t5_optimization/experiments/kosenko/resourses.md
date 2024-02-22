@@ -23,8 +23,11 @@
 - [Quantized Transfer Learning for Computer Vision Tutorial](https://pytorch.org/tutorials/intermediate/quantized_transfer_learning_tutorial.html)
 - [Pytorch Mobile Performance Recipes](https://pytorch.org/tutorials/recipes/mobile_perf.html)
 - [A BetterTransformer for Fast Transformer Inference](https://pytorch.org/blog/a-better-transformer-for-fast-transformer-encoder-inference/)
-- [An efficient implementation of the popular sequence models for text generation, translation tasks.](https://github.com/microsoft/fastseq)
+- [fastseq An efficient implementation of the popular sequence models for text generation, translation tasks.](https://github.com/microsoft/fastseq)
 - [Accelerating HuggingFace T5 Inference with TensorRT](https://github.com/NVIDIA/TensorRT/blob/release/8.2/demo/HuggingFace/notebooks/t5.ipynb)
 - [TensorRT-LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs)](https://github.com/NVIDIA/TensorRT-LLM/tree/main)
 - [https://github.com/NVIDIA/FasterTransformer](https://github.com/NVIDIA/FasterTransformer)
+- [AOTInductor: Ahead-Of-Time Compilation for Torch.Export-ed Models](https://pytorch.org/docs/main/torch.compiler_aot_inductor.html)
+- [PYTORCH MOBILE End-to-end workflow from Training to Deployment for iOS and Android mobile devices](https://pytorch.org/mobile/home/)
+- 
 
