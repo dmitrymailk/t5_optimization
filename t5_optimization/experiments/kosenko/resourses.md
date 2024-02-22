@@ -11,5 +11,8 @@
 - [Neural Network Distiller by Intel AI Lab: a Python package for neural network compression research.](https://github.com/IntelLabs/distiller/)
 - [Exploring Extreme Parameter Compression for Pre-trained Language Models](https://arxiv.org/pdf/2205.10036.pdf)
 - [EdgeBERT: Sentence-Level Energy Optimizations for Latency-Aware Multi-Task NLP Inference](https://arxiv.org/pdf/2011.14203.pdf)
-- [https://github.com/ELS-RD/kernl/tree/main](https://github.com/ELS-RD/kernl/tree/main)
+- [https://github.com/ELS-RD/kernl/tree/main](https://github.com/ELS-RD/kernl/tree/main) - зависает на большой модели, не заработало.
+- [Fast & Simple repository for pre-training and fine-tuning T5-style models](https://github.com/PiotrNawrot/nanoT5)
+- [Fused Softmax triton](https://triton-lang.org/main/getting-started/tutorials/02-fused-softmax.html)
+- [PyTorch compile to speed up inference on Llama 2](https://pytorch.org/blog/pytorch-compile-to-speed-up-inference/)
 - 

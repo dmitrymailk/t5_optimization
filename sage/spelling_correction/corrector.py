@@ -56,6 +56,7 @@ class Corrector(metaclass=ABCMeta):
             batch_size: int,
             prefix: str = "",
             dataset_split: str = "test",
+            size=-1,
             **generation_params,
     ) -> Dict[str, float]:
         dataset_name_or_path = str(dataset_name_or_path)
@@ -97,8 +98,11 @@ class Corrector(metaclass=ABCMeta):
             raise ValueError("You must provide either valid path or available dataset's name, you provided {}".format(
                 dataset_name_or_path
             ))
-
-        answers = self.batch_correct(sources, batch_size, prefix, **generation_params)
+            
+        if size == -1:
+            size = len(sources)
+            
+        answers = self.batch_correct(sources[:size], batch_size, prefix, **generation_params)
         if "num_return_sequences" in generation_params and generation_params["num_return_sequences"] > 1:
             num_sequences = generation_params["num_return_sequences"]
             answers = [batch_answers[::num_sequences] for batch_answers in answers]
