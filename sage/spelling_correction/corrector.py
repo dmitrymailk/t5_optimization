@@ -101,7 +101,7 @@ class Corrector(metaclass=ABCMeta):
             
         if size == -1:
             size = len(sources)
-            
+        print("generation_params", generation_params)    
         answers = self.batch_correct(sources[:size], batch_size, prefix, **generation_params)
         if "num_return_sequences" in generation_params and generation_params["num_return_sequences"] > 1:
             num_sequences = generation_params["num_return_sequences"]
