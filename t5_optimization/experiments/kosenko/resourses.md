@@ -4,7 +4,7 @@
 - [koboldcpp](https://github.com/LostRuins/koboldcpp)
 - [speculative-decoding](https://github.com/lucidrains/speculative-decoding)
 - [ts_server](https://bellard.org/ts_server/)
-- [fastT5](https://github.com/Ki6an/fastT5)
+- [fastT5](https://github.com/Ki6an/fastT5) - работает с некоторыми исправлениями старого апи.
 - [Neural Network Compression: Techniques for Reducing Size and ImprovingLatency](https://youtu.be/-QCbDjpIM2I?si=1Zv6-RxcuilKWXIl)
 - [https://vgel.me/posts/faster-inference/](https://vgel.me/posts/faster-inference/)
 - [UMIA-Group/FourierTransformer: The official Pytorch implementation of the paper "Fourier Transformer: Fast Long Range Modeling by Removing Sequence Redundancy with FFT Operator" (ACL 2023 Findings)](https://github.com/LUMIA-Group/FourierTransformer)
@@ -15,4 +15,10 @@
 - [Fast & Simple repository for pre-training and fine-tuning T5-style models](https://github.com/PiotrNawrot/nanoT5)
 - [Fused Softmax triton](https://triton-lang.org/main/getting-started/tutorials/02-fused-softmax.html)
 - [PyTorch compile to speed up inference on Llama 2](https://pytorch.org/blog/pytorch-compile-to-speed-up-inference/)
+- [Fuse Modules Recipe](https://pytorch.org/tutorials/recipes/fuse.html)
+- [Dynamic Quantization pytorch](https://pytorch.org/tutorials/recipes/recipes/dynamic_quantization.html) - хорошо работает
+- [Introduction to Quantization on PyTorch](https://pytorch.org/blog/introduction-to-quantization-on-pytorch/)
+- [Static Quantization with Eager Mode in PyTorch](https://pytorch.org/tutorials/advanced/static_quantization_tutorial.html)
+- [QUANTIZATION pytorch](https://pytorch.org/docs/stable/quantization.html)
+- [Quantized Transfer Learning for Computer Vision Tutorial](https://pytorch.org/tutorials/intermediate/quantized_transfer_learning_tutorial.html)
 - 
