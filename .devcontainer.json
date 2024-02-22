@@ -7,7 +7,8 @@
 				"ms-python.black-formatter",
 				"ms-vsliveshare.vsliveshare",
 				"christian-kohler.path-intellisense",
-				"ms-toolsai.jupyter"
+				"ms-toolsai.jupyter",
+				"ms-vscode.cmake-tools"
 			]
 		}
 	},

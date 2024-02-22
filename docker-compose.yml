@@ -3,7 +3,8 @@ version: '3.3'
 services:
   server:
     build:
-      dockerfile: ./Dockerfile
+      # dockerfile: ./Dockerfile
+      dockerfile: ./Dockerfile_faster_transformer
       context: . 
     command: /bin/sh -c "while sleep 1000; do :; done"
     volumes:

@@ -29,5 +29,19 @@
 - [https://github.com/NVIDIA/FasterTransformer](https://github.com/NVIDIA/FasterTransformer)
 - [AOTInductor: Ahead-Of-Time Compilation for Torch.Export-ed Models](https://pytorch.org/docs/main/torch.compiler_aot_inductor.html)
 - [PYTORCH MOBILE End-to-end workflow from Training to Deployment for iOS and Android mobile devices](https://pytorch.org/mobile/home/)
-- 
+- [An easy to use PyTorch to TensorRT converter](https://github.com/NVIDIA-AI-IOT/torch2trt)
+- [Lite Transformer with Long-Short Range Attention](https://github.com/mit-han-lab/lite-transformer)
+- [EdgeTran: Co-designing Transformers for Efficient Inference on Mobile Edge Platforms](https://arxiv.org/pdf/2303.13745.pdf)
+- [MOBILEVIT: LIGHT-WEIGHT, GENERAL-PURPOSE, AND MOBILE-FRIENDLY VISION TRANSFORMER](https://arxiv.org/pdf/2110.02178.pdf)
+- [EfficientViT: Multi-Scale Linear Attention for High-Resolution Dense Prediction](https://hanlab.mit.edu/projects/efficientvit)
+- [Efficient AI Inference & Serving](https://github.com/hpcaitech/SwiftInfer)
+- [[ICLR 2024] Efficient Streaming Language Models with Attention Sinks](https://github.com/mit-han-lab/streaming-llm)
+- [TinyChat: Efficient and Lightweight Chatbot with AWQ](https://github.com/mit-han-lab/llm-awq/tree/main/tinychat) 
+- [PockEngine: Sparse and Efficient Fine-tuning in a Pocket](https://hanlab.mit.edu/projects/pockengine)
+- [Tiny Machine Learning: Progress and Futures](https://hanlab.mit.edu/projects/tiny-machine-learning-progress-and-futures)
+- [Offsite-Tuning: Transfer Learning without Full Model](https://github.com/mit-han-lab/offsite-tuning)
+- [[CVPR'23] FlatFormer: Flattened Window Attention for Efficient Point Cloud Transformer](https://github.com/mit-han-lab/flatformer)
+- [On-Device Training Under 256KB Memory [NeurIPS'22]](https://github.com/mit-han-lab/tiny-training)
 
+### courses
+- [TinyML and Efficient Deep Learning Computing](https://hanlab.mit.edu/courses/2023-fall-65940)

@@ -1,5 +1,6 @@
 # FROM pytorch/pytorch:2.0.1-cuda11.7-cudnn8-runtime
-FROM pytorch/pytorch:2.1.0-cuda12.1-cudnn8-devel
+# FROM pytorch/pytorch:2.1.0-cuda12.1-cudnn8-devel
+FROM nvcr.io/nvidia/pytorch:22.09-py3
 RUN apt-get update && apt-get upgrade -y 
 RUN apt-get install git curl numactl wget -y 
 
@@ -10,9 +11,9 @@ RUN apt-get update && apt-get upgrade -y && apt-get install \
 	openmpi-bin openmpi-common openmpi-doc libopenmpi-dev \
 	ffmpeg libsm6 libxext6 tree -y
 
-ENV MPICC=/opt/ompi/bin/mpicc
-ENV MPICXX=/opt/ompi/bin/mpicxx
-RUN CC=${MPICC} pip install mpi4py==3.1.5
+# ENV MPICC=/opt/ompi/bin/mpicc
+# ENV MPICXX=/opt/ompi/bin/mpicxx
+# RUN CC=${MPICC} pip install mpi4py==3.1.5
 
 # RUN chmod -R 777 /root
 
